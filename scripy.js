@@ -40,7 +40,7 @@ console.log(x)
 console.log(x)
 
 
-//
+//boolean
 let a1=true
 let b1=false
 
@@ -112,3 +112,29 @@ seasons.forEach((item)=>console.log(item))
 let number=[10,5,4,2]
 let doublenumber=number.map(item=>item*2)
 console.log(doublenumber)
+
+//homeworks
+function calculate (num1,num2,operator)
+{                     
+    if(operator=="+")
+    {
+        return num1+num2
+    }
+    else if(operator=="-")
+    {
+        return num1-num2
+    }
+    else if(operator=="*")
+    {
+        return num1*num2
+    }
+    else if(operator=="/")
+    {
+        return num1/num2
+    }
+    else{
+        return "invalid operator"
+    }
+}
+
+console.log(calculate(5,3,"+"))
